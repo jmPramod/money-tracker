@@ -3,8 +3,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "baseUrl": "src",
-    "outDir": "./dist",
-
+    "outDir": "dist",
+    "esModuleInterop": true,
     "resolveJsonModule": true,
     "sourceMap": true,
     "noImplicitAny": true
