@@ -1,0 +1,1 @@
+{"version":3,"file":"cerate.Error.js","sourceRoot":"","sources":["../../src/utils/cerate.Error.ts"],"names":[],"mappings":";;AAKA,MAAM,WAAW,GAAG,CAAC,MAAc,EAAE,OAAe,EAAe,EAAE;IACnE,MAAM,KAAK,GAAG,IAAI,KAAK,CAAC,OAAO,CAAgB,CAAC;IAChD,KAAK,CAAC,MAAM,GAAG,MAAM,CAAC;IACtB,KAAK,CAAC,IAAI,GAAG,IAAI,CAAC;IAClB,OAAO,KAAK,CAAC;AACf,CAAC,CAAC;AAEF,kBAAe,WAAW,CAAC"}
