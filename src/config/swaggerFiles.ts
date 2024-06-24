@@ -38,7 +38,7 @@ const swaggerOption = {
     ],
   },
 
-  apis: ['./routes/REST/*.js'],
+  apis: ['./routes/*.ts'],
 };
 
 const CSS_URL = 'https://unpkg.com/swagger-ui-dist/swagger-ui.css';

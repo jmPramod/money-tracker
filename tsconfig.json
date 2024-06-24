@@ -4,6 +4,8 @@
     "moduleResolution": "NodeNext",
     "baseUrl": "src",
     "outDir": "dist",
+
+    "resolveJsonModule": true,
     "sourceMap": true,
     "noImplicitAny": true
   },
