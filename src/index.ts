@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 import { connectMongooseDB } from './config/db.connect';
 import transactionRoute from './routes/transactionRoute';
 import bankRoutes from './routes/bankRoute';
-import { SwaggerUIBundle, SwaggerUIStandalonePreset } from 'swagger-ui-dist';
+import { SwaggerUIStandalonePreset, SwaggerUIBundle } from 'swagger-ui-dist';
 
 import * as swaggerDocument from '../src/config/swagger.json';
 dotenv.config();
@@ -19,7 +19,11 @@ const app = express();
 //   swaggerUI.serve,
 //   swaggerUI.setup(swaggerSpec, { customCssUrl: CSS_URL })
 // );
-app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+app.use(
+  '/api-docs',
+  swaggerUI.serve,
+  swaggerUI.setup(swaggerDocument, { customCssUrl: CSS_URL })
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors(corsOption));
