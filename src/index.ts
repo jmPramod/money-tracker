@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors(corsOption));
 //!  Routes
 app.use((req, res, next) => {
-  res.send('Api Working fine');
+  res.send('Api Working fine 1');
 });
 app.use('/', bankRoutes);
 app.use('/', transactionRoute);
